@@ -1,0 +1,8 @@
+# Cronjob-1 for sending email to an user every minute, every minute, every day, every year,
+
+* * * * * /usr/bin/php /var/www/html/crontest/corn.php > /dev/null/ 2>1
+
+# Cronjob-2 for executing Script-1.sh for every 2 minutes
+
+*/2 * * * * /var/www/html/crontest/Script-1.sh
+
